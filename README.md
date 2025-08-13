@@ -1,3 +1,4 @@
+ HEAD
 # CUI File Packer & Unpacker with Encryption
 
 **Technology:** Java
@@ -28,3 +29,7 @@ CUI-File-Packer-Unpacker/
    
 Author
 Vaibhav 	
+
+# CUI-File-Packer-Unpacker
+Command-line Java project for packing, unpacking, and encrypting files with metadata support.
+ 44a7c0161fdc46812380a727298fd290d5857e16
