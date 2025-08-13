@@ -1,35 +1,71 @@
- HEAD
 # CUI File Packer & Unpacker with Encryption
 
-**Technology:** Java
+**Technology:** Java  
+**Type:** Command-Line Interface (CUI) Project  
+
+---
 
 ## Project Overview
-Command-line Java project that allows packing multiple files into a single file and unpacking them back, with metadata preservation and encryption for security.
+This project allows users to **pack multiple files into a single file** and later **unpack them**, preserving all metadata. It also includes **encryption and decryption techniques** to ensure data security. This is ideal for secure file storage and transfer.
+
+---
 
 ## Folder Structure
+```
 CUI-File-Packer-Unpacker/
 │
 ├── src/                   # Java source files
 │   ├── FilePacker.java    # Handles packing of multiple files
 │   └── FileUnpacker.java  # Handles unpacking of files
 │
-├── Files/                 # Optional: Example files for testing/demo
+├── Files/                 # Example files for demo/testing
 │
-└── README.md              # Project overview, features, and instructions
+└── README.md              # Project overview and instructions
+```
+
+---
 
 ## Features
-- Pack multiple files into a single file with metadata
-- Unpack files preserving original details
-- Encryption & decryption for data security
+- Pack multiple files into a **single packed file** with metadata  
+- Unpack files, **restoring original names, sizes, and timestamps**  
+- **Encrypt and decrypt** files for secure storage  
+- Simple **command-line interface**  
+
+---
 
 ## How to Run
-1. Clone the repository:
-
-   git clone https://github.com/vaibhavpatilX/CUI-File-Packer-Unpacker
+1. **Clone the repository:**
    
-Author
-Vaibhav 	
+   git clone https://github.com/vaibhavpatilX/CUI-File-Packer-Unpacker.git
+   
+2. **Navigate to the project folder:**
+   
+   cd CUI-File-Packer-Unpacker/src
 
-# CUI-File-Packer-Unpacker
-Command-line Java project for packing, unpacking, and encrypting files with metadata support.
- 44a7c0161fdc46812380a727298fd290d5857e16
+3. **Compile the Java files:**
+   ```bash
+   javac FilePacker.java FileUnpacker.java
+
+4. **Run the application:**
+
+   java FilePacker   # To pack files
+   java FileUnpacker # To unpack files
+
+
+---
+
+## Demo / Example
+*(Optional: You can add a small screenshot of packed/unpacked files here or explain a sample workflow)*  
+
+---
+
+## Future Enhancements
+- GUI version for easier interaction  
+- Advanced encryption algorithms (AES/RSA)  
+- Cross-platform support  
+
+---
+
+## Author
+**Vaibhav Patil**  
+[LinkedIn](https://www.linkedin.com/in/cs-er-vaibhav/) | [GitHub](https://github.com/vaibhavpatilX)
