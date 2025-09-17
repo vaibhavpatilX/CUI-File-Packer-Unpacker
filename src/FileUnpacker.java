@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 //
-//	Class Name		: 	MarvellousUnpacker
+//	Class Name		: 	FileUnpacker
 //	Description 	: 	Command Line (CUI) based application to unpack a packed file 
 //					  back into individual text files.
 //	Author			: 	Vaibhav Patil
@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.*;
 import java.nio.charset.StandardCharsets;  
 
-class MarvellousUnpacker
+class FileUnpacker
 {
     ///////////////////////////////////////////////////////////////////////////////////////////
     //
