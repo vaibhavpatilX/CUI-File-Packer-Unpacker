@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 //
-//	Class Name		: 	MarvellousPacker
+//	Class Name		: 	FilePacker
 //	Description 	: 	Command Line (CUI) based application to pack multiple text files 
 //					  from a folder into a single packed file.
 //	Author			: 	Vaibhav Patil
@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.*;
 import java.nio.charset.StandardCharsets;  
 
-class MarvellousPacker
+class FilePacker
 {
     ///////////////////////////////////////////////////////////////////////////////////////////
     //
